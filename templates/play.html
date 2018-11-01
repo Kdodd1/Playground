@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Playground</title>
+	<style type="text/css">
+		h1{
+			text-align: center;
+			
+		}
+		.box{
+			height:200px;
+			width: 200px;
+			margin-left: 10px;
+			margin-bottom: 10px;
+			background-color: blue;
+			border-width: 4px;
+			border-style: solid;
+			border-color: black;
+			display: inline-block;
+		}
+	</style>
+
+
+</head>
+<body>
+	<div class="container">
+		<h1>Welcome!</h1>
+		{% for i in range(0, num) %}
+		<div class= "box"></div>
+		{% endfor %}
+	</div>
+</body>
+</html>
